@@ -1,0 +1,56 @@
+/* Estilos para el contenedor principal */
+.perfil-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+/* Estilos para los títulos */
+.perfil-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada */
+.perfil-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón */
+.perfil-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón al pasar el ratón por encima */
+.perfil-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para las etiquetas */
+.perfil-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los mensajes de error */
+.perfil-error {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Estilos para el contenedor del formulario */
+.perfil-form-container {
+    margin-bottom: 20px;
+}

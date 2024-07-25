@@ -1,0 +1,72 @@
+.orders-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.order-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+}
+
+.order-card h2 {
+    margin-top: 0;
+}
+
+.order-card p {
+    margin: 5px 0;
+}
+
+.order-card h3 {
+    margin: 10px 0 5px;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-update,
+.btn-delete {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.btn-update {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.btn-update:hover {
+    background-color: #45a049;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #e53935;
+}

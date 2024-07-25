@@ -1,0 +1,71 @@
+.pedidos-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pedidos-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pedido-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pedido-id {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.pedido-total {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #777;
+}
+
+.pedido-estado {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #777;
+}
+
+.productos-lista {
+    margin-top: 12px;
+    padding-left: 0;
+}
+
+.producto-item {
+    border-top: 1px solid #eee;
+    padding: 12px 0;
+}
+
+.producto-nombre {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.producto-cantidad {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+.no-pedidos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #777;
+}

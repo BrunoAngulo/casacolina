@@ -1,0 +1,58 @@
+.pedidos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.pedidos-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.pedido-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pedido-table th,
+.pedido-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.pedido-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pedido-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pedido-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.pedido-productos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pedido-productos-list li {
+    margin-bottom: 10px;
+}
+
+.pedido-productos-list strong {
+    font-weight: bold;
+}
+
+.pedido-table select {
+    padding: 5px;
+    margin: 5px;
+    font-size: 1em;
+}

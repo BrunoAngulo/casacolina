@@ -1,0 +1,36 @@
+.usuarios-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.usuarios-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.usuarios-list {
+    list-style: none;
+    padding: 0;
+}
+
+.usuario-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.usuario-item strong {
+    font-weight: bold;
+}
+
+.usuario-item br {
+    display: none;
+    /* Opcional: quita los saltos de línea si prefieres mostrar los datos en una línea */
+}
